@@ -1,4 +1,4 @@
-# TIC-TAC-TOE!!
+# TIC-TAC-TOE!
 
 My first tic-tac-toe game made in Javascript using modular reveal pattern.
 
