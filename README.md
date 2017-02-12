@@ -1,11 +1,11 @@
 # TIC-TAC-TOE!
 
-My first tic-tac-toe game made in Javascript using modular reveal pattern.
+My first tic-tac-toe game made in Javascript using revealing module pattern.
 
 ### TODOS
 
 * Integrate Socket.IO to play in real time with other player
 * Use the flex grid system and add some more animations similar to the google's tic-tac-toe game (Search Tic-tac-toe on google)
 * Allow to select difficutly level when playing with the computer
-* Add AI for the second player!! 
+* Add AI for the second player!! :P
 * Add color scheme (themes)
