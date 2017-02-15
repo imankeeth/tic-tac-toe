@@ -3,45 +3,44 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tic Tac Toe | Ankeeth Suvarna</title>
   <link rel="stylesheet" type="text/css" href="tic-tac-toe.css">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Varela+Round" rel="stylesheet">
 </head>
 
 <body>
-  <h2>TIC-TAC-TOE</h2>
-  <div class="ttt-board">
-    <div class="row top-row">
-      <div class="card card0"></div>
-      <div class="card card1"></div>
-      <div class="card card2"></div>
-    </div>
-    <div class="row middle-row">
-      <div class="card card3"></div>
-      <div class="card card4"></div>
-      <div class="card card5"></div>
-    </div>
-    <div class="row bottom-row">
-      <div class="card card6"></div>
-      <div class="card card7"></div>
-      <div class="card card8"></div>
+  <div class="header">
+    <h2>TIC TAC TOE</h2>
+    <div class="info-bar">
+      <div class="score_display">
+        X <span id="x_score">0</span>
+      </div>
+      <div class="message-board">
+        <span class="message">Start game or select a player to start with</span>
+        <div class="cta">
+          <button class="btn reset_button">Reset Game?</button>
+          <!--<button class="btn">Select Level</button>-->
+        </div>
+      </div>
+      <div class="score_display">
+        O <span id="o_score">0</span>
+      </div>
     </div>
   </div>
-
-  <div class="score-info">
-    <h3>Scores</h3>
-    <table>
-      <tr>
-        <th>X</th>
-        <th>O</th>
-      </tr>
-      <tr>
-        <td id="x_score">0</td>
-        <td id="o_score">0</td>
-      </tr>
-    </table>
-    <button class="btn reset_button">Reset Game</button>
-  </div>
+  
+  <ul class="ttt-board-container">
+    <li class="card card0"></li>
+    <li class="card card1"></li>
+    <li class="card card2"></li>
+    <li class="card card3"></li>
+    <li class="card card4"></li>
+    <li class="card card5"></li>
+    <li class="card card6"></li>
+    <li class="card card7"></li>
+    <li class="card card8"></li>
+  </ul>
+  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="tic-tac-toe.js"></script>
 </body>
